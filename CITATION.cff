@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository."
+title: "Irrigation Designer Spatial"
+type: software
+authors:
+  - family-names: "Valencia"
+    given-names: "Julián"
+    affiliation: "UNISARC"
+    email: "julian.valencia@unisarc.edu.co"
+version: "1.2.1"
+date-released: "2026-09-30"
+abstract: "QGIS plugin for preliminary spatial, agronomic, hydrological and hydraulic design of agricultural irrigation systems."

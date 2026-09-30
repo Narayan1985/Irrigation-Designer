@@ -1,0 +1,21 @@
+{
+  "compiled": [
+    "source_analysis.py",
+    "basemap.py",
+    "digitizing.py",
+    "design_network.py",
+    "spatial.py",
+    "wizard.py",
+    "catalogs.py",
+    "engine.py",
+    "plugin.py",
+    "water_availability.py",
+    "__init__.py",
+    "test_engine.py",
+    "hydrology.py"
+  ],
+  "syntax": "PASS",
+  "hydraulic_iterations": "100/100",
+  "complete_numeric_models": "50/50",
+  "qgis_runtime_note": "Las geometrías, etiquetas, Esri y GUI requieren ejecución final en QGIS instalado."
+}

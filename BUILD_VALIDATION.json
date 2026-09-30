@@ -1,0 +1,9 @@
+{
+  "version": "1.2.1",
+  "compiled_python_modules": 16,
+  "syntax_status": "PASS",
+  "errors": [],
+  "author": "Julián Valencia, Ingeniero Agrónomo / Agronomist, MSc, PhD",
+  "email": "julian.valencia@unisarc.edu.co",
+  "runtime_note": "Static compilation does not replace execution testing inside QGIS."
+}

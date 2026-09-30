@@ -1,0 +1,92 @@
+{
+  "package": "irrigation_designer_spatial",
+  "compiled": [
+    "source_analysis.py",
+    "crs_utils.py",
+    "basemap.py",
+    "digitizing.py",
+    "design_network.py",
+    "spatial.py",
+    "wizard.py",
+    "catalogs.py",
+    "engine.py",
+    "plugin.py",
+    "water_availability.py",
+    "__init__.py",
+    "test_engine.py",
+    "hydrology.py"
+  ],
+  "stale_core_imports": [],
+  "qgs_import_audit": {
+    "wizard.py": {
+      "used": [
+        "QgsCoordinateReferenceSystem",
+        "QgsCoordinateTransform",
+        "QgsDistanceArea",
+        "QgsProject",
+        "QgsRasterLayer",
+        "QgsVectorLayer",
+        "QgsWkbTypes"
+      ],
+      "missing": []
+    },
+    "design_network.py": {
+      "used": [
+        "QgsFeature",
+        "QgsField",
+        "QgsGeometry",
+        "QgsLineSymbol",
+        "QgsMarkerSymbol",
+        "QgsPalLayerSettings",
+        "QgsPointXY",
+        "QgsProject",
+        "QgsTextFormat",
+        "QgsVectorLayer",
+        "QgsVectorLayerSimpleLabeling",
+        "QgsWkbTypes"
+      ],
+      "missing": []
+    },
+    "digitizing.py": {
+      "used": [
+        "QgsField",
+        "QgsProject",
+        "QgsVectorLayer"
+      ],
+      "missing": []
+    },
+    "crs_utils.py": {
+      "used": [
+        "QgsCoordinateReferenceSystem",
+        "QgsCoordinateTransform",
+        "QgsFeature",
+        "QgsProject",
+        "QgsVectorLayer"
+      ],
+      "missing": []
+    },
+    "hydrology.py": {
+      "used": [
+        "QgsApplication",
+        "QgsCoordinateReferenceSystem",
+        "QgsCoordinateTransform",
+        "QgsPointXY",
+        "QgsProject",
+        "QgsRasterLayer",
+        "QgsVectorLayer"
+      ],
+      "missing": []
+    },
+    "source_analysis.py": {
+      "used": [
+        "QgsCoordinateTransform",
+        "QgsGeometry",
+        "QgsProject"
+      ],
+      "missing": []
+    }
+  },
+  "crs_iterations": "100/100",
+  "hydraulic_models": "50/50",
+  "runtime_note": "Native QGIS digitizing action and geometry rendering still require user's installed QGIS for final GUI validation."
+}

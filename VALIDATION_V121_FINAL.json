@@ -1,0 +1,18 @@
+{
+  "version": "1.2.1-final",
+  "syntax": "PASS",
+  "100_diameter_monotonicity_tests": "100/100",
+  "50_spacing_models": "50/50",
+  "gravity_no_emitters": "PASS",
+  "geometry_checks": {
+    "geometry_offset_uses_hydraulic_spacing": true,
+    "line_emitter_count_uses_hydraulic_spacing": true,
+    "gravity_n_zero": true,
+    "expected_gravity_zero": true,
+    "no_residual_geometry_dependencies": false
+  },
+  "residual_lines": [
+    "off+=lateral_spacing if lateral_spacing>0 else max(1.0,row_spacing)"
+  ],
+  "design_rule": "Aspersión/microaspersión use wetted diameter × overlap factor; goteo uses crop spacing."
+}

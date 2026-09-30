@@ -1,0 +1,16 @@
+{
+  "version": "1.1.0",
+  "compiled": 14,
+  "missing_qgs_imports": {},
+  "invalid_direct_renderers": [],
+  "checks": {
+    "mca_fields": true,
+    "internal_diameter": true,
+    "length": true,
+    "accessories_layer": true,
+    "minor_loss_formula": true,
+    "emitter_flow_label": true,
+    "editable_ambiguity_note": true
+  },
+  "engineering_note": "Dint equals DN until real pipe catalogue/PN/SDR is selected; automatic accessory K values are preliminary and editable."
+}

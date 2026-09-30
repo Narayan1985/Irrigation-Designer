@@ -1,0 +1,11 @@
+{
+  "version": "0.9.1",
+  "compiled_modules": 14,
+  "syntax": "PASS",
+  "direct_symbol_setRenderer_issues": [],
+  "missing_Qgs_imports": {},
+  "single_symbol_renderer_calls": 5,
+  "expected_renderer_calls": 5,
+  "target_runtime": "QGIS 3.44.5-Solothurn / Python 3.12.12",
+  "note": "Static/API correction validated here; actual PyQGIS GUI execution remains validated by running in QGIS."
+}

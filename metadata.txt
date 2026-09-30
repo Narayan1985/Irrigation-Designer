@@ -1,0 +1,12 @@
+[general]
+name=Irrigation Designer Spatial
+qgisMinimumVersion=3.28
+description=Diseño espacial agrohidráulico: DEM/hidrología, fuentes, cultivos, sectorización, tuberías y emisores.
+version=1.2.1
+author=Julián Valencia, Ingeniero Agrónomo / Agronomist, MSc, PhD
+about=Asistente de prediseño espacial y toma de decisiones para riego en QGIS.
+category=Vector
+experimental=True
+deprecated=False
+tags=irrigation,hydrology,agriculture,hydraulics,dem,drip,sprinkler
+email=julian.valencia@unisarc.edu.co

@@ -1,0 +1,19 @@
+{
+  "compile": [
+    "source_analysis.py",
+    "basemap.py",
+    "spatial.py",
+    "wizard.py",
+    "catalogs.py",
+    "engine.py",
+    "plugin.py",
+    "water_availability.py",
+    "__init__.py",
+    "test_engine.py",
+    "hydrology.py"
+  ],
+  "hydrology_iterations": "100/100",
+  "availability_models": "50/50",
+  "formula_check": "1 mm/d over 1 km2 = 11.574074 L/s",
+  "runtime_limit": "NASA POWER network and QGIS geometry/GUI require validation inside the user's QGIS environment."
+}

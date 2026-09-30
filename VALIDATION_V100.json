@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "compiled": 14,
+  "missing_qgs_imports": {},
+  "invalid_direct_renderers": [],
+  "regression_checks": {
+    "iterates_all_features": true,
+    "area_weighted_flow": true,
+    "unit_attribute": true,
+    "label_after_merge": true,
+    "correct_close_scale_emitters": true,
+    "correct_close_scale_laterals": true
+  },
+  "target": "QGIS 3.44.5 / Python 3.12; geographically portable UTM working CRS"
+}

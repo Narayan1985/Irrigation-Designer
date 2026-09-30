@@ -1,0 +1,29 @@
+{
+  "syntax_files": [
+    "basemap.py",
+    "spatial.py",
+    "wizard.py",
+    "catalogs.py",
+    "engine.py",
+    "plugin.py",
+    "__init__.py",
+    "test_engine.py",
+    "hydrology.py"
+  ],
+  "unit_tests_returncode": 0,
+  "iterations": {
+    "requested": 100,
+    "passed": 100,
+    "failed": []
+  },
+  "models": {
+    "requested": 50,
+    "passed": 50,
+    "failed": []
+  },
+  "model_velocity_range_ms": [
+    0.01250493975694857,
+    24.601881294896312
+  ],
+  "note": "Pure-Python engine validated here. QGIS GUI/Processing/GRASS runtime requires an actual QGIS installation."
+}

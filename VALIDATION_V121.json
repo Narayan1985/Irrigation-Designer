@@ -1,0 +1,16 @@
+{
+  "version": "1.2.1",
+  "compiled_modules": 16,
+  "syntax": "PASS",
+  "missing_qgs_imports": {},
+  "100_diameter_monotonicity_tests": "100/100",
+  "50_spacing_models": "50/50",
+  "checks": {
+    "network_accepts_wetted_diameter": true,
+    "network_uses_irrigation_spacing": true,
+    "wizard_passes_wetted_diameter": true,
+    "wizard_passes_wind": true,
+    "gravity_zero_emitters": false
+  },
+  "engineering_note": "Spacing ratios are preliminary design defaults and must remain editable/validated against sprinkler manufacturer data, wind and required uniformity."
+}
